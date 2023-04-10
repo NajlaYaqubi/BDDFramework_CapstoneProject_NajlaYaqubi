@@ -7,7 +7,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@HomeFeature", 
+		tags = "", 
 		features = "classpath:features", // this is path to features folder
 		glue ="tek.sdet.framework",
 		dryRun = false,

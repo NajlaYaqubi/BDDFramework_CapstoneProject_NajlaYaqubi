@@ -7,7 +7,7 @@ Feature: Sign In Feature
 
   @signInTestCase
   Scenario: Verify user can sign in into Retail Application
-    And User enter email 'PhantomClassPro@tekschool.us' and password 'Tek@12345'
+    And User enter email 'Yaqubiphantom@gmail.com' and password 'Qwe@12345'
     And User click on login button
     Then User should be logged in into Account
 
@@ -28,7 +28,7 @@ Feature: Sign In Feature
     And User click on Create New Account button
     And User fill the signUp information with below data
       | name    | email                     | password  | confirmPassword |
-      | Phantom | phantomZer@tekschool.us | Tek@12345 | Tek@12345       |
+      | Phantom | phantomEE@tekschool.us    | Tek@12345 | Tek@12345       |
     And User click on SignUp button
     Then User should be logged into account page
 
@@ -43,7 +43,7 @@ Feature: Sign In Feature
 
     Examples: 
       | name    | email                        | password  | confirmPassword |
-      | Phantom | PhantomClasyc@tekschool.us  | Tek@12345 | Tek@12345       |
-      | Phantom | PhantomClassc@tekschool.us | Tek@12345 | Tek@12345      |
-      | Phantom | PhantomClast@tekschool.us  | Ket@12345 | Ket@12345        |
-      | Phantom | PhantomClasrp@tekschool.us | Tek@12345 | Tek@12345       |
+      | Phantom | PhantomSSS@tekschool.us  | Tek@12345 | Tek@12345       |
+      | Phantom | PhantomXXX@tekschool.us | Tek@12345 | Tek@12345      |
+      | Phantom | PhantomCCC@tekschool.us  | Ket@12345 | Ket@12345        |
+      | Phantom | PhantomBBB@tekschool.us | Tek@12345 | Tek@12345       |
